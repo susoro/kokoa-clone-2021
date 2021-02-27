@@ -1,0 +1,40 @@
+.nav{
+    background-color: #f9f9fa;
+    padding:20px 50px;
+    border-top: 1px solid rgba(121,121,121,0.3);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color:#2e363e;
+    position:relative;
+}
+.nav-notification{
+    background-color:tomato;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:absolute;
+    top:-25px;
+    left:15px;
+}
+.nav-notice{
+    background-color:tomato;
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    display:flex;
+    position:absolute;
+    top:-15px;
+    left:30px;
+}
