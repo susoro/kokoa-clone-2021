@@ -3,10 +3,11 @@
     justify-content: space-between;
     padding: 25px;   
     align-items: center;
+    padding:var(--horiaental-space);
 }
 .screen-header-title{
     font-size:32px;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 .screen-header-icons span{
