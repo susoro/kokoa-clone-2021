@@ -1,3 +1,6 @@
+.user-component{
+    justify-content: space-between;
+}
 .user-component,
 .user-component-colum:nth-child(1){
     display: flex;
@@ -16,11 +19,21 @@
 .user-component-subtitle{
     margin-top:8px;
     color: rgba(0,0,0,0.5);
-    font-size:18px;
+    font-size:16px;
 }
 .user-component-avatar-xl{
     width: 80px;
     height: 80px;
-    border-radius: 35px;
-    margin-right: 20px;
+}
+.user-component-avatar-sm{
+    width: 60px;
+    height: 60px;
+    border-radius:25px;
+}
+.user-component__title--not-bold{
+    font-weight:400;
+}
+
+.user-component__column:last-child{
+    color:rgba(0,0,0,0.5);
 }

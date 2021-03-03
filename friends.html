@@ -6,21 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <title>friends - kokoa clone </title>
+    <title>friends - kokoa clone</title>
 </head>
 
 <body>
     <div class="status-bar">
-        <div class="status-bar-colum"><span>No-service</span>
+        <div class="status-bar-colum">
+            <span>No-service</span>
             <i class="fas fa-wifi"></i>
-            <!--to do: wifi icon -->
         </div>
         <div class="status-bar-colum"><span>18:43</span></div>
         <div class="status-bar-colum"><span>110%</span>
             <i class="fas fa-battery-full fa-lg"></i>
             <i class="fas fa-bolt"></i>
-            <!-- battery icon -->
-            <!-- lightning icon -->
         </div>
     </div>
 
@@ -32,69 +30,67 @@
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
-    
+
     <a id="friends-display-link">
         <i class="fas fa-info fa-xs"></i>
         Friends'Names Display
         <i class="fas fa-chevron-right fa-xs"></i>
     </a>
     <main class="friends-screen">
-
-    </main>
-    <div class="user-component">
-        <div class="user-component-colum">
-            <img src="https://avatars.githubusercontent.com/u/78544372?s=460&u=142ccdf5d5444de40c7307532986c6415fc1acb2&v=4"
-                alt="" class="user-component-avatar user-component-avatar-xl">
-            <div class="user-component-text">
-                <h4 class="user-component-title">jenn</h4>
+        <div class="user-component">
+            <div class="user-component-colum">
+                <img src="https://avatars.githubusercontent.com/u/78544372?s=460&u=142ccdf5d5444de40c7307532986c6415fc1acb2&v=4"
+                    alt="" class="user-component-avatar user-component-avatar-xl">
+                <div class="user-component-text">
+                    <h4 class="user-component-title">jenn</h4>
+                </div>
             </div>
-            <!-- <h6 class="user-component-subtitle">
-                    this next text
-                </h6> -->
+            <div class="user-component__column"></div>
         </div>
+
         <div class="friends-screen-channel">
             <div class="friends-screen-channel-header">
                 <span>Channel</span>
                 <i class="fas fa-chevron-up fa-xs"></i>
             </div>
-        </div>
-        <div class="user-component">
-            <div class="user-component-colum">
-                <img src="https://avatars.githubusercontent.com/u/78544372?s=460&u=142ccdf5d5444de40c7307532986c6415fc1acb2&v=4"
-                    alt="" class="user-component-avatar user-component-avatar-sm">
-                <div class="user-component-text">
-                    <h4 class="user-component-title">jenn</h4>
+
+            <div class="user-component">
+                <div class="user-component-colum">
+                    <img src="https://avatars.githubusercontent.com/u/78544372?s=460&u=142ccdf5d5444de40c7307532986c6415fc1acb2&v=4"
+                        alt="" class="user-component-avatar user-component-avatar-sm">
+                    <div class="user-component-text">
+                        <h4 class="user-component-title user-component__title--not-bold">jenn</h4>
+                    </div>
+                </div>
+                <div class="user-component-colum">
+                    <div>
+                        <span>2</span>
+                        <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
                 </div>
             </div>
-            <div class="user-component-colum">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-
         </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-btn"><a href="#" class="nav-link">
+                    <i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav-btn"><a href="#" class="nav-link">
+                    <span class="nav-notification">1</span>
+                    <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav-btn"><a href="#" class="nav-link">
+                    <i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav-btn"><a href="#" class="nav-link">
+                    <span class="nav-notice"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
 
 
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-btn"><a href="#" class="nav-link">
-                        <i class="fas fa-user fa-2x"></i></a></li>
-                <li class="nav-btn"><a href="#" class="nav-link">
-                        <span class="nav-notification">1</span>
-                        <i class="far fa-comment fa-2x"></i></a></li>
-                <li class="nav-btn"><a href="#" class="nav-link">
-                        <i class="fas fa-search fa-2x"></i></a></li>
-                <li class="nav-btn"><a href="#" class="nav-link">
-                        <span class="nav-notice"></span>
-                        <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
-            </ul>
-        </nav>
-
-
-        <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
-            integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous">
-        </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+        integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
