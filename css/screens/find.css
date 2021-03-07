@@ -48,3 +48,47 @@
     color:var(--color-gray);
     font-size:18px;
 }
+.open-chat-header{
+    display: flex;
+    opacity: 0.8;
+    justify-content:space-between;
+    margin-bottom:25px;
+}
+.open-chat-header span{
+    opacity: 0.6;
+}
+.open-post{
+    display: flex;
+}
+.open-post-title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.open-post-hashtags{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.open-post-members{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+.open-post-members img{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-post-members-count{
+    opacity: 0.5;
+    font-size:14px;
+}
+.open-post-members .divider{
+    width: 2px;
+    height :10px;
+    background-color:var(--color-gray);
+    margin: 0 5px;
+}
+.open-post-members-status{
+    color:#ffb0e0;
+}
