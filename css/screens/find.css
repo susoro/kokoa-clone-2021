@@ -1,7 +1,7 @@
 .find-icons{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding-bottom:25px;
 }
 
 .find-icons-icon{
@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.find-icons .find-icons-icon i{
+.find-icons-icon i{
     font-size:35px;
 }
 .find-icons-icon span{
@@ -20,7 +20,7 @@
 .screen-header-icons{
     position: relative;
 }
-.nav-notice{
+.nav-notice2{
     background-color:tomato;
     width:6px;
     height:6px;
@@ -28,5 +28,23 @@
     display:flex;
     position:absolute;
     top:-5px;
-    right:-20px;
+    right:-5px;
+}
+.recommended-friends{
+    margin:25px 0;
+    padding-bottom:25px 0;
+    border-top:var(--main-border);
+    border-bottom:var(--main-border);
+}
+.recommended-title{
+    margin-top:12px;
+    font-size:14px;
+    color:var(--color-gray);
+}
+.recommended-friends span{
+    margin: 110px 0;
+    display:block;
+    text-align: center;
+    color:var(--color-gray);
+    font-size:18px;
 }
