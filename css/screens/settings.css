@@ -1,0 +1,10 @@
+.settings__setting{
+    padding:20px 0;
+    border-bottom: var(--main-border);
+    font-size: 18px;
+    align-items: center;
+}
+.settings__setting-column i{
+    opacity: 0.8;
+    margin-right:20px;
+}
